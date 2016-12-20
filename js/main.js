@@ -1,6 +1,5 @@
 var d = new Date();
-// var month = d.getMonth();
-var month = 1;
+var month = d.getMonth();
 var monthele = document.getElementById('month');
 var heading = document.getElementById('heading');
 var day = document.getElementsByClassName('day');
@@ -12,12 +11,14 @@ switch (month) {
     break;
   case 10:
     heading.innerHTML = "November";
+    monthele.removeChild(day[30]);
     break;
   case 9:
     heading.innerHTML = "October";
     break;
   case 8:
     heading.innerHTML = "September";
+    monthele.removeChild(day[30]);
     break;
   case 7:
     heading.innerHTML = "August";
@@ -27,12 +28,14 @@ switch (month) {
     break;
   case 5:
     heading.innerHTML = "June";
+    monthele.removeChild(day[30]);
     break;
   case 4:
     heading.innerHTML = "May";
     break;
   case 3:
     heading.innerHTML = "April";
+    monthele.removeChild(day[30]);
     break;
   case 2:
     heading.innerHTML = "March";
