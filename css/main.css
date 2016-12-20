@@ -24,7 +24,7 @@ div.header p {
   text-align: center;
   color: #fff;
 }
-.month {
+#month {
   /*Grid Properties*/
   grid-column: 2 / 3;
   grid-row: 2 / 3;

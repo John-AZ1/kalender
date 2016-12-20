@@ -1,6 +1,6 @@
 var d = new Date();
 // var month = d.getMonth();
-var month = 11;
+var month = 1;
 var monthele = document.getElementById('month');
 var heading = document.getElementById('heading');
 var day = document.getElementsByClassName('day');
